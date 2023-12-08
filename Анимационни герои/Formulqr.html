@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link href="Formulqr.css" rel="stylesheet" />
+    <title>Формуляр</title>
+</head>
+<body>
+    <header id="rev1">
+        <nav class="topMenu">
+            <ul>
+                <li><a href="Miki.html">Мики Маус</a></li>
+                <li><a href="ТМ.html">Том и Джери</a></li>
+                <li><a href="Pyh.html">Мечо Пух</a></li>
+                <li><a href="Tuiti.html">Туити</a></li>
+                <li><a href="Masha.html">Маша и мечока</a></li>
+                <li><a href="BamBam.html">Пебълс и Бам Бам</a></li>
+                <li><a href="Formulqr.html">Aнимационнен герой</a></li>
+            </ul>
+        </nav>
+    </header>
+    <br />
+    <h1>Ако имате любим анимационнен герой, попълнете следния формуляр, за да разберем кой е вашият фаворит!</h1>
+    <form id="animacionni">
+        <fieldset>
+            <legend>Анимационни герои</legend>
+            <label for="fN">Вашето име е:</label>
+            <input type="text" name="txtName" id="fN" />
+            <br />
+            <br />
+            <br />
+            <legend>Вашият пол е:</legend>
+            <fieldset id="pol">
+                <input type="radio" name="pol" id="maj" />
+                <label for="maj">Мъж</label>
+                <br />
+                <input type="radio" name="pol" id="jena" />
+                <label for="jena">Жена</label>
+                <br />
+                <input type="radio" name="pol" id="dete" />
+                <label for="dete">Дете</label>
+                <br />
+            </fieldset>
+            <br />
+            <br />
+            <legend>Имате ли любим анимационен герой?</legend>
+            <fieldset id="vapros">
+                <input type="radio" name="vapros" id="da" />
+                <label for="da">Да</label>
+                <br />
+                <input type="radio" name="vapros" id="da" />
+                <label for="ne">Не</label>
+                <br />
+            </fieldset>
+            <br />
+            <br />
+            <label for="ag">Ако имате любим анимационен герой, кой е той?</label>
+            <br />
+            <br />
+            <select multiple name="Ако имате любим анимационен герой, кой е той?">
+                <option>Мики маус</option>
+                <option>Мечо пух</option>
+                <option>Том и Джери</option>
+                <option>Маша и мечока</option>
+                <option>Туити</option>
+                <option>Пибълс и Бам Бам</option>
+            </select>
+            <br />
+            <br />
+            <br />
+            <input type="submit" value="Изпрати" />
+            <input type="reset" name="Изтрий" />
+        </fieldset>
+    </form>
+    <br />
+    <footer>
+        <ul>
+            <li><a href="Nachalo.html">Отиди на главното меню</a> </li>
+        </ul>
+    </footer>
+</body>
+</html>
